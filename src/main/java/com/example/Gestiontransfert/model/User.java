@@ -1,5 +1,6 @@
 package com.example.Gestiontransfert.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import org.hibernate.annotations.NaturalId;
 
@@ -13,7 +14,6 @@ import java.util.Set;
 @Entity
 @Table(name = "user", uniqueConstraints = {
         @UniqueConstraint(columnNames = {
-
                 "username"
         }),
 
@@ -26,37 +26,24 @@ public class User{
     @NotBlank
     @Size(min=3, max = 50)
     private String nomcomplet;
-
     @NotBlank
-    @Size(min=3, max = 50)
     private String username;
-
-
     @NotBlank
-    @Size(max = 50)
     @Email
     private String email;
-
     @NotBlank
-    @Size(min=6, max = 100)
     private String password;
-
-    @NotBlank
-    @Size(max = 9)
     private int tel;
     @NotBlank
     @Size(max = 50)
     private String adresse;
-
     @NotBlank
-    @Size(max = 50)
     private String status;
-
     @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(name = "user_roles",
             joinColumns = @JoinColumn(name = "user_id"),
             inverseJoinColumns = @JoinColumn(name = "role_id"))
-          private Set<Role> roles = new HashSet<>();
+    private Set<Role> roles = new HashSet<>();
     @JoinColumn(name = "idpartenaire_id", referencedColumnName = "id")
     @ManyToOne(optional = false)
     @JsonManagedReference
@@ -65,18 +52,32 @@ public class User{
     @ManyToOne(optional = false)
     @JsonManagedReference
     private Compte compte ;
-
+    @JsonIgnoreProperties(value = "partenaire")
     public User() {
     }
-
-    public User(String nomcomplet, String username, String email, String password, int tel, String adresse , String status) {
+    public User(String nomcomplet, String username, String email, String password, int tel, String adresse ) {
         this.nomcomplet = nomcomplet;
         this.username = username;
         this.email = email;
         this.password = password;
         this.tel = tel;
         this.adresse = adresse;
-        this.status = status;
+    }
+
+    public Partenaire getPartenaire() {
+        return partenaire;
+    }
+
+    public void setPartenaire(Partenaire partenaire) {
+        this.partenaire = partenaire;
+    }
+
+    public Compte getCompte() {
+        return compte;
+    }
+
+    public void setCompte(Compte compte) {
+        this.compte = compte;
     }
 
     public Long getId() {

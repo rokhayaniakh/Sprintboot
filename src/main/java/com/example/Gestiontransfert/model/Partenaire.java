@@ -1,5 +1,8 @@
 package com.example.Gestiontransfert.model;
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "partenaire")
@@ -12,9 +15,30 @@ public class Partenaire {
     @Column(length = 15)
     private int ninea;
     @Column(length = 30)
-    private String adresse;
+    private String adresseP;
     @Column(length = 10)
     private String status;
+
+    public  Partenaire(){
+
+    }
+    public Partenaire(String rs, int ninea, String adresseP) {
+        this.rs = rs;
+        this.ninea = ninea;
+        this.adresseP = adresseP;
+
+    }
+    @OneToMany(mappedBy ="partenaire")
+    @JsonIgnoreProperties(value = "partenaire")
+   /* private List <User> user;
+
+    public List<User> getUser() {
+        return user;
+    }
+    public void setUser(List<User> user) {
+        this.user = user;
+    }
+*/
 
     public int getId() {
         return id;
@@ -40,12 +64,12 @@ public class Partenaire {
         this.ninea = ninea;
     }
 
-    public String getAdresse() {
-        return adresse;
+    public String getAdresseP() {
+        return adresseP;
     }
 
     public void setAdresse(String adresse) {
-        this.adresse = adresse;
+        this.adresseP = adresse;
     }
 
     public String getStatus() {

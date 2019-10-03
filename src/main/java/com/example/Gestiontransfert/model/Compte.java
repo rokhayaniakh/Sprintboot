@@ -1,5 +1,7 @@
 package com.example.Gestiontransfert.model;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import javax.persistence.*;
 
 @Entity
@@ -10,6 +12,18 @@ public class Compte {
     private int id;
     private int solde;
     private  int numbcompte;
+    @JoinColumn(name = "idpartenaire_id", referencedColumnName = "id")
+    @ManyToOne(optional = false)
+    @JsonManagedReference
+    private Partenaire partenaire ;
+
+    public Partenaire getPartenaire() {
+        return partenaire;
+    }
+
+    public void setPartenaire(Partenaire partenaire) {
+        this.partenaire = partenaire;
+    }
 
     public int getId() {
         return id;

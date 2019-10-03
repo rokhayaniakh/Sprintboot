@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24116cd9-8fbf-4a82-9687-f9af3f02e9ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/controller/PartenaireController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/Ajout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/Compte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/Partenaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/Partenaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/RoleName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/RoleName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/repository/CompteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/repository/CompteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/repository/PartenaireRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/repository/PartenaireRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="Gestiontransfert/invalid/Spring" />
+    </ignored-facets>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Rb3iByXLDbhuKwSiqZReM0Kn5h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.Gestiontransfert" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/repository" />
+      <recent name="$PROJECT_DIR$/src/main/java/repository" />
+      <recent name="$PROJECT_DIR$/src/main/java/model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controller" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.Gestiontransfert" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.GestiontransfertApplication">
+    <configuration name="GestiontransfertApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Gestiontransfert.GestiontransfertApplication" />
+      <module name="Gestiontransfert" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.Gestiontransfert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GestiontransfertApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Gestiontransfert" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.Gestiontransfert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.Gestiontransfert" />
+      <option name="MAIN_CLASS_NAME" value="com.example.Gestiontransfert.GestiontransfertApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GestiontransfertApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Gestiontransfert" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Gestiontransfert.GestiontransfertApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GestiontransfertApplication" />
+        <item itemvalue="JUnit.GestiontransfertApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24116cd9-8fbf-4a82-9687-f9af3f02e9ab" name="Default Changelist" comment="" />
+      <created>1569922093106</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569922093106</updated>
+      <workItem from="1569946967843" duration="776000" />
+      <workItem from="1569948593937" duration="2393000" />
+      <workItem from="1569973399278" duration="6834000" />
+      <workItem from="1570004561089" duration="1120000" />
+      <workItem from="1570005912651" duration="259000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
