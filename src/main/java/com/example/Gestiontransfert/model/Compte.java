@@ -10,8 +10,8 @@ public class Compte {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private int solde;
-    private  int numbcompte;
+    private long solde;
+    private  String numbcompte;
     @JoinColumn(name = "idpartenaire_id", referencedColumnName = "id")
     @ManyToOne(optional = false)
     @JsonManagedReference
@@ -33,19 +33,19 @@ public class Compte {
         this.id = id;
     }
 
-    public int getSolde() {
+    public long getSolde() {
         return solde;
     }
 
-    public void setSolde(int solde) {
+    public void setSolde(long solde) {
         this.solde = solde;
     }
 
-    public int getNumbcompte() {
+    public String getNumbcompte() {
         return numbcompte;
     }
 
-    public void setNumbcompte(int numbcompte) {
+    public void setNumbcompte(String numbcompte) {
         this.numbcompte = numbcompte;
     }
 }

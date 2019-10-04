@@ -1,6 +1,5 @@
 package com.example.Gestiontransfert.model;
 
-
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import org.springframework.format.annotation.DateTimeFormat;
 
@@ -13,9 +12,18 @@ public class Depot {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private int montant;
+    private Long montant;
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date date;
+
+    public Compte getCompte() {
+        return compte;
+    }
+
+    public void setCompte(Compte compte) {
+        this.compte = compte;
+    }
+
     @JoinColumn(name = "idcompte_id", referencedColumnName = "id")
     @ManyToOne(optional = false)
     @JsonManagedReference
@@ -29,11 +37,11 @@ public class Depot {
         this.id = id;
     }
 
-    public int getMontant() {
+    public Long getMontant() {
         return montant;
     }
 
-    public void setMontant(int montant) {
+    public void setMontant(Long montant) {
         this.montant = montant;
     }
 

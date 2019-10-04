@@ -22,22 +22,12 @@ public class User{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @NotBlank
-    @Size(min=3, max = 50)
     private String nomcomplet;
-    @NotBlank
     private String username;
-    @NotBlank
-    @Email
     private String email;
-    @NotBlank
     private String password;
     private int tel;
-    @NotBlank
-    @Size(max = 50)
     private String adresse;
-    @NotBlank
     private String status;
     @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(name = "user_roles",

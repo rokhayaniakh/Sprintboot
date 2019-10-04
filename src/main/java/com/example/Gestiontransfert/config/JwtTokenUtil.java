@@ -1,8 +1,13 @@
 package com.example.Gestiontransfert.config;
 
+import com.example.Gestiontransfert.model.Role;
+import com.example.Gestiontransfert.model.RoleName;
+import com.example.Gestiontransfert.model.User;
+import com.example.Gestiontransfert.repository.UserRepository;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
@@ -45,12 +50,26 @@ public class JwtTokenUtil implements Serializable {
         Map<String, Object> claims = new HashMap<>();
         return doGenerateToken(claims, userDetails.getUsername());
     }
+    @Autowired
+    UserRepository userRepository;
     //while creating the token -
 //1. Define  claims of the token, like Issuer, Expiration, Subject, and the ID
 //2. Sign the JWT using the HS512 algorithm and secret key.
 //3. According to JWS Compact Serialization(https://tools.ietf.org/html/draft-ietf-jose-json-web-signature-41#section-3.1)
 //   compaction of the JWT to a URL-safe string
     private String doGenerateToken(Map<String, Object> claims, String subject) {
+
+        User user= userRepository.findByUsername(subject).orElseThrow();
+ if (user.getStatus().equals("bloquer")){
+     return "user bloquer";
+        }
+       /* String auth = null;
+        for (Role role: user.getRoles()
+        ) {
+            RoleName rien=role.getName();
+            System.out.println(rien);
+            auth=rien.name();
+        }*/
         return Jwts.builder().setClaims(claims).setSubject(subject).setIssuedAt(new Date(System.currentTimeMillis()))
                 .setExpiration(new Date(System.currentTimeMillis() + JWT_TOKEN_VALIDITY * 1000))
                 .signWith(SignatureAlgorithm.HS512, secret).compact();

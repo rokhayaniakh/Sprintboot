@@ -18,5 +18,4 @@ public class GestiontransfertApplication extends ServletInitializer implements C
 	public void run(String... args) throws Exception {
 		System.out.println(encoder.encode("passer"));
 	}
-
 }

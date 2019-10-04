@@ -25,7 +25,7 @@ public class PartenaireController {
     private CompteRepository compteRepository;
 
     @GetMapping(value = "/liste")
-    @PreAuthorize("hasAuthority('ROLE_ADMIN')")
+    @PreAuthorize("hasAuthority('ROLE_SUPER_ADMIN')")
     public List<Partenaire> liste()
     {
         return partenaireRepository.findAll();
@@ -42,11 +42,11 @@ public class PartenaireController {
         Set<Role> roles = new HashSet<>();
         Role role= new Role();
         role.setId((long) 1);
-        // Adding elements into HashSet usind add()
+        // Adding elements into HashSet usind add()&&
         roles.add(role);
         user.setRoles(roles);
         user.setCompte(compte);
-        compte.setNumbcompte(785554);
+        compte.setNumbcompte("785554");
         compte.setSolde(0);
         compte.setPartenaire(partenaire);
         partenaireRepository.save(partenaire);

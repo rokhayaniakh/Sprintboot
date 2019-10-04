@@ -2,16 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24116cd9-8fbf-4a82-9687-f9af3f02e9ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/controller/PartenaireController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/Ajout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/controller/SecurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/DepotCompte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/config/JwtTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/config/JwtTokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/controller/PartenaireController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/controller/PartenaireController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/Ajout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/Ajout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/Compte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/Partenaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/Partenaire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/RoleName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/RoleName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/Depot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/Depot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/repository/CompteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/repository/CompteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/repository/PartenaireRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/repository/PartenaireRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/repository/DepotRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/repository/DepotRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/services/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/services/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT.war.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/META-INF/Gestiontransfert.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/Gestiontransfert/controller/PartenaireController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/Gestiontransfert/controller/PartenaireController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/Gestiontransfert/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/Gestiontransfert/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/Gestiontransfert/model/Ajout.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/Gestiontransfert/model/Ajout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/Gestiontransfert/model/Compte.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/Gestiontransfert/model/Compte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/Gestiontransfert/model/Depot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/Gestiontransfert/model/Depot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/Gestiontransfert/model/RoleName.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/Gestiontransfert/model/RoleName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/Gestiontransfert/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/Gestiontransfert/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/Gestiontransfert/repository/CompteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/Gestiontransfert/repository/CompteRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/Gestiontransfert/repository/DepotRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/Gestiontransfert/repository/DepotRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/Gestiontransfert/services/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Gestiontransfert-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/Gestiontransfert/services/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/config/JwtTokenUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/config/JwtTokenUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/controller/PartenaireController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/controller/PartenaireController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/model/Ajout.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/model/Ajout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/model/Compte.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/model/Compte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/model/Depot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/model/Depot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/repository/CompteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/repository/CompteRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/repository/DepotRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/repository/DepotRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/services/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Gestiontransfert/services/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-10-01T16-09-54_871-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-10-01T16-14-38_093-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-10-02T11-19-25_804-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.Gestiontransfert.GestiontransfertApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.Gestiontransfert.GestiontransfertApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.Gestiontransfert.GestiontransfertApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.Gestiontransfert.GestiontransfertApplicationTests.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +76,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -77,20 +114,21 @@
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.Gestiontransfert.controller" />
+      <recent name="com.example.Gestiontransfert" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.Gestiontransfert" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/repository" />
       <recent name="$PROJECT_DIR$/src/main/java/repository" />
       <recent name="$PROJECT_DIR$/src/main/java/model" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="controller" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.example.Gestiontransfert" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -181,5 +219,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/controller/SecurityController.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/Gestiontransfert/controller/UserController.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

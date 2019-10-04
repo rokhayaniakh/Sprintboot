@@ -1,9 +1,11 @@
 /home/rokhayadiop/Documents/Gestiontransfert/src/main/java/com/example/Gestiontransfert/controller/UserController.java
+/home/rokhayadiop/Documents/Gestiontransfert/src/main/java/com/example/Gestiontransfert/controller/SecurityController.java
 /home/rokhayadiop/Documents/Gestiontransfert/src/main/java/com/example/Gestiontransfert/model/User.java
 /home/rokhayadiop/Documents/Gestiontransfert/src/main/java/com/example/Gestiontransfert/model/JwtResponse.java
 /home/rokhayadiop/Documents/Gestiontransfert/src/main/java/com/example/Gestiontransfert/controller/JwtAuthenticationController.java
 /home/rokhayadiop/Documents/Gestiontransfert/src/main/java/com/example/Gestiontransfert/model/Depot.java
 /home/rokhayadiop/Documents/Gestiontransfert/src/main/java/com/example/Gestiontransfert/repository/DepotRepository.java
+/home/rokhayadiop/Documents/Gestiontransfert/src/main/java/com/example/Gestiontransfert/services/UserService.java
 /home/rokhayadiop/Documents/Gestiontransfert/src/main/java/com/example/Gestiontransfert/repository/UserRepository.java
 /home/rokhayadiop/Documents/Gestiontransfert/src/main/java/com/example/Gestiontransfert/services/UserDetailsServiceImpl.java
 /home/rokhayadiop/Documents/Gestiontransfert/src/main/java/com/example/Gestiontransfert/model/Compte.java
@@ -14,6 +16,7 @@
 /home/rokhayadiop/Documents/Gestiontransfert/src/main/java/com/example/Gestiontransfert/model/Partenaire.java
 /home/rokhayadiop/Documents/Gestiontransfert/src/main/java/com/example/Gestiontransfert/config/JwtTokenUtil.java
 /home/rokhayadiop/Documents/Gestiontransfert/src/main/java/com/example/Gestiontransfert/repository/CompteRepository.java
+/home/rokhayadiop/Documents/Gestiontransfert/src/main/java/com/example/Gestiontransfert/controller/DepotController.java
 /home/rokhayadiop/Documents/Gestiontransfert/src/main/java/com/example/Gestiontransfert/repository/RoleRepository.java
 /home/rokhayadiop/Documents/Gestiontransfert/src/main/java/com/example/Gestiontransfert/services/UserPrinciple.java
 /home/rokhayadiop/Documents/Gestiontransfert/src/main/java/com/example/Gestiontransfert/controller/PartenaireController.java

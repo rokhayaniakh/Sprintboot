@@ -9,9 +9,20 @@ public class Ajout {
     private int tel;
     private String adresseP;
     private String status;
+
+    public Partenaire getPartenaire() {
+        return partenaire;
+    }
+
+    public void setPartenaire(Partenaire partenaire) {
+        this.partenaire = partenaire;
+    }
+
     private String rs;
     private int ninea;
     private String adresse;
+
+    private Partenaire partenaire;
 
     public String getNomcomplet() {
         return nomcomplet;
